@@ -1,0 +1,22 @@
+﻿@model ET_Vest.Models.PrintedEditionProvider
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create PrintedEdition-Provider Relation</h2>
+<form method="post" asp-action="Add" asp-controller="PrinredEditionProvider">
+    <div class="form-group">
+        <label asp-for="PrintedEdition"></label>
+        <select asp-for="PrintedEditionId" asp-items="@(new SelectList(ViewBag.PrintedEditions, "PrintedEditionId", "Title"))" class="form-control">
+            <option value="">Select a printEdition</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label asp-for="Provider"></label>
+        <select asp-for="ProviderId" asp-items="@(new SelectList(ViewBag.Providers, "ProviderId", "Name"))" class="form-control">
+            <option value="">Select a provider</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary" asp-controller="PrintedEditionProvider">Добавяне</button>
+</form>

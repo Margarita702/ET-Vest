@@ -1,0 +1,72 @@
+﻿ ﻿@using ET_Vest.Models.Enums
+@model ET_Vest.Models.PrintedEdition
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Добавяне на печатно издание</h2>
+<form method="post" asp-action="Add" asp-controller="PrintedEdition">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Category"></label>
+        <select asp-for="Category" asp-items="Html.GetEnumSelectList<Category>()" class="form-control">
+            <option value="">Изберете категория</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+
+
+    </div>
+    <div class="form-group">
+        <label asp-for="Periodicity"></label>
+        <select asp-for="Periodicity" asp-items="Html.GetEnumSelectList<Periodicity>()" class="form-control">
+            <option value="">Изберете периодичност</option>
+        </select>
+        <span asp-validation-for="Periodicity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DeliveredUnitPrice"></label>
+        <input asp-for="DeliveredUnitPrice" class="form-control" />
+        <span asp-validation-for="DeliveredUnitPrice" class="text-danger"></span>
+
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SalePrice"></label>
+        <input asp-for="SalePrice" class="form-control" />
+        <span asp-validation-for="SalePrice" class="text-danger"></span>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Добавяне</button>
+</form>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Add custom validation rule to accept decimal numbers
+            $.validator.methods.number = function (value, element) {
+                return this.optional(element) || !isNaN(parseFloat(value));
+            }
+
+            // Add or modify validation rules for specific fields
+            $('#decimalField').rules('add', {
+                number: true,  // Require the input to be a number
+                messages: {
+                    number: "Моля, въведете валидна цена."
+                }
+            });
+        });
+    </script>
+}
+
+

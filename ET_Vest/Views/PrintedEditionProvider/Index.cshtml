@@ -1,0 +1,28 @@
+﻿@model IEnumerable<ET_Vest.Models.PrintedEditionProvider>﻿
+
+<h2>PrintEditions List</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>PrintedEdition Id</th>
+            <th>PrintedEdition</th>
+            <th>Provider Id</th>
+            <th>Provider</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var printedEditionProvider in Model)
+        {
+            <tr>
+                <td>@printedEditionProvider.PrintedEditionId</td>
+                <td>@printedEditionProvider.PrintedEdition.Title</td>
+                <td>@printedEditionProvider.ProviderId</td>
+                <td>@printedEditionProvider.Provider.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
+@* @if (User.IsInRole("Admin"))
+{ *@
+    <a asp-action="Add" asp-controller="PrintedEditionProvider" class="btn btn-success">Add New PrintedEdition-Provider Relations</a>
+@* } *@

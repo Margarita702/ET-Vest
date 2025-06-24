@@ -1,0 +1,65 @@
+﻿@using System.ComponentModel.DataAnnotations
+@model IEnumerable<ET_Vest.Models.PrintedEdition>﻿
+
+<h2>Печатни издания</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Заглавие</th>
+            <th>Категория</th>
+            <th>Периодичност</th>
+            <th>Доставна цена</th>
+            <th>Продажна цена</th>
+            <th>Действия</th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @foreach (var printedEdition in Model)
+        {
+            <tr>
+                <td>@printedEdition.Title</td>
+             <td>@GetCategoryDisplayName(printedEdition.Category)</td>
+               <td>@GetPeriodicityDisplayName(printedEdition.Periodicity)</td>
+                <td>@printedEdition.DeliveredUnitPrice лева</td>
+                <td>@printedEdition.SalePrice лева</td>
+               
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@printedEdition.PrintedEditionId"
+                           class="btn btn-primary">Редактиране</a>
+                        <form asp-action="Delete" asp-route-id="@printedEdition.PrintedEditionId" method="post"
+                              onsubmit="return confirm('Сигурни ли сте, че искате да изтриете това печатно издание?');">
+                            <button type="submit" class="btn btn-danger">Изтриване</button>
+                        </form>
+                    </td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+
+    <a asp-action="Add" asp-controller="PrintedEdition" class="btn btn-add">
+        Добавяне на новo издание
+    </a>
+
+     @functions {
+    // Helper method to get the display name of Periodicity enum
+    private string GetPeriodicityDisplayName(ET_Vest.Models.Enums.Periodicity periodicity)
+    {
+        var field = periodicity.GetType().GetField(periodicity.ToString());
+        var displayAttribute = (DisplayAttribute)Attribute.GetCustomAttribute(field, typeof(DisplayAttribute));
+
+        return displayAttribute == null ? periodicity.ToString() : displayAttribute.Name;
+    }
+}
+
+            @functions {
+    // Helper method to get the display name of Periodicity enum
+    private string GetCategoryDisplayName(ET_Vest.Models.Enums.Category category)
+    {
+        var field = category.GetType().GetField(category.ToString());
+        var displayAttribute = (DisplayAttribute)Attribute.GetCustomAttribute(field, typeof(DisplayAttribute));
+
+        return displayAttribute == null ? category.ToString() : displayAttribute.Name;
+    }
+}

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ET_Vest.Models.Provider>
+
+<h2>Доставчици</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Телефонен номер</th>
+            <th>Имейл</th>
+            <th>Град</th>
+            <th>Действия</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var provider in Model)
+        {
+            <tr>
+                <td>@provider.Name</td>
+                <td>@provider.PhoneNumber</td>
+                <td>@provider.Email</td>
+                <td>@provider.City</td>
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@provider.ProviderId" class="btn btn-primary">Редактиране</a>
+                        <form asp-action="Delete" asp-route-id="@provider.ProviderId" method="post"
+                              onsubmit="return confirm('Сигурни ли сте, че искате да изтриете този доставик?');">
+                            <button type="submit" class="btn btn-danger">Изтриване</button>
+                        </form>
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    <a asp-action="Add" asp-controller="Provider" class="btn btn-add">Добавяне на нов доставчик</a>

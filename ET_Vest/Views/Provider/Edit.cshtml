@@ -1,0 +1,39 @@
+﻿ @model ET_Vest.Data.ViewModels.PrintedEditionProviderViewModel
+
+<h2>Редактиране на доставчик</h2>
+<form method="post" asp-action="Edit" asp-controller="Provider">
+    <div class="form-group">
+        <label asp-for="@Model.Provider.Name"></label>
+        <input asp-for="@Model.Provider.Name" class="form-control" />
+        <span asp-validation-for="@Model.Provider.Name" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Provider.PhoneNumber"></label>
+        <input asp-for="@Model.Provider.PhoneNumber" class="form-control" />
+        <span asp-validation-for="@Model.Provider.PhoneNumber" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Provider.Email"></label>
+        <input asp-for="@Model.Provider.Email" class="form-control" />
+        <span asp-validation-for="@Model.Provider.Email" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="@Model.Provider.City"></label>
+        <input asp-for="@Model.Provider.City" class="form-control" />
+        <span asp-validation-for="@Model.Provider.City" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <input asp-for="@Model.Provider.ProviderId" class="d-none" readonly />
+
+        <input type="submit" value="Редактиране" class="btn btn-primary" asp-sction="Edit" />
+    </div>
+</form>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}

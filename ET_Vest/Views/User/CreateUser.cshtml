@@ -1,0 +1,26 @@
+﻿@model ET_Vest.Data.UserViewModel
+
+<form asp-action="CreateUser" method="post">
+    <!-- Display validation errors, etc. -->
+
+    <label asp-for="UserName"></label>
+    <input asp-for="UserName" />
+
+    <label asp-for="Email"></label>
+    <input asp-for="Email" />
+
+    <label asp-for="Password"></label>
+    <input asp-for="Password" />
+
+    <label asp-for="FirstName"></label>
+    <input asp-for="FirstName" />
+
+    <label asp-for="LastName"></label>
+    <input asp-for="LastName" />
+
+    <label asp-for="RoleId"></label>
+    <select asp-for="RoleId" asp-items="@(new SelectList(ViewBag.Roles, "Id", "FirstName"))" class="form-control">
+        <option value="">Select</option>
+    </select>
+    <button type="submit">Създаване на потребител</button>
+</form>

@@ -1,0 +1,51 @@
+﻿@using ET_Vest.Models.Enums
+@model ET_Vest.Models.Request
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Създаване на заявка</h2>
+<form method="post" asp-action="Add" asp-controller="Request">
+    <div class="form-group">
+        <label asp-for="PrintedEditionId">Изберете печатно издание</label>
+        <select asp-for="PrintedEditionId" asp-items="@(new SelectList(ViewBag.PrintedEditions, "PrintedEditionId", "Title"))" class="form-control">
+            <option value="">Изберете печатно издание</option>
+        </select>
+        <span asp-validation-for="PrintedEditionId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RequestedQuantity">Количество</label>
+        <input asp-for="RequestedQuantity" class="form-control" />
+        <span asp-validation-for="RequestedQuantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TradeObjectId">Изберете търговски обект</label>
+        <select asp-for="TradeObjectId" asp-items="@(new SelectList(ViewBag.TradeObjects, "Id", "Name"))" class="form-control">
+            <option value="">Изберете търговски обект</option>
+        </select>
+        <span asp-validation-for="TradeObjectId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProviderId">Изберете доставчик</label>
+        <select asp-for="ProviderId" asp-items="@(new SelectList(ViewBag.Providers, "ProviderId", "Name"))" class="form-control">
+            <option value="">Изберете доставчик</option>
+        </select>
+        <span asp-validation-for="ProviderId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Създаване</button>
+</form>
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
+
+
+
+
+
+

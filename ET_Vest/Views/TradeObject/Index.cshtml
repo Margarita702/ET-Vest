@@ -1,0 +1,37 @@
+﻿ @model IEnumerable<ET_Vest.Models.TradeObject>
+
+<h2>Търговски обекти</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Наименование на обекта</th>
+            <th>Адрес</th>
+            <th>Служител</th>
+            <th>Действия</th>
+        
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var tradeObjects in Model)
+        {
+            <tr>
+                <td>@tradeObjects.Name</td>
+                <td>@tradeObjects.Address</td>
+                <td>@(tradeObjects.Employee != null ? tradeObjects.Employee.Name : "N/A")</td>
+
+
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@tradeObjects.Id"
+                           class="btn btn-primary">Редактиране</a>
+                        <form asp-action="Delete" asp-route-id="@tradeObjects.Id" method="post"
+                              onsubmit="return confirm('Сигурни ли сте, че искате да изтриете този търговски обект?');">
+                            <button type="submit" class="btn btn-danger">Изтриване</button>
+                        </form>
+                    </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+    <a asp-action="Add" asp-controller="TradeObject" class="btn btn-add">Добавяне на нов търговски обект</a>
+

@@ -1,0 +1,28 @@
+﻿a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+a {
+    color: #0000;
+}
+
+.btn {
+    border-color: #000000;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: #94A5DE;
+}
+
+.btn-add {
+    color: #FFFFFF;
+    background-color: #1C3585;
+}
+
+.btn-dispose {
+    color: #000000;
+    background-color: #E5E9F7;
+}

@@ -1,0 +1,913 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\data\\dbseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\data\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\data\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\data\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\data\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\data\\createuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\manage\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\registerconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\properties\\servicedependencies.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20250624132250_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ET_Vest\\Migrations\\20250624132250_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\request\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\request\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\wwwroot\\css\\layout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\models\\request.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\inventory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\inventory\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\inventory\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\views\\sale\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\controllers\\requestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\migrations\\20240402071451_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\migrations\\20240402071451_validations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|c:\\users\\user\\desktop\\coursework\\et_vest\\et_vest\\migrations\\20240403200858_nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33CCE78A-9D43-4BBD-857F-15D15BEFCAC5}|ET_Vest\\ET_Vest.csproj|solutionrelative:et_vest\\migrations\\20240403200858_nullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 834,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Request.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Models\\Request.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Models\\Request.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Models\\Request.cs",
+              "RelativeToolTip": "ET_Vest\\Models\\Request.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAnwB8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T07:11:31.368Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\Roles.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Data\\Roles.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\Roles.cs",
+              "RelativeToolTip": "ET_Vest\\Data\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:55.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Data\\UserViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\UserViewModel.cs",
+              "RelativeToolTip": "ET_Vest\\Data\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:52.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\DbSeeder.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Data\\DbSeeder.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\DbSeeder.cs",
+              "RelativeToolTip": "ET_Vest\\Data\\DbSeeder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:48.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\CreateUserViewModel.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Data\\CreateUserViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\CreateUserViewModel.cs",
+              "RelativeToolTip": "ET_Vest\\Data\\CreateUserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:46.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ET_Vest\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:41.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\appsettings.json",
+              "RelativeDocumentMoniker": "ET_Vest\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\appsettings.json",
+              "RelativeToolTip": "ET_Vest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T13:20:24.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ET_Vest\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:31:30.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:31:17.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:31:15.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:31:12.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:31:09.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:31:06.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ET_Vest\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:28:10.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Error.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:56.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:55.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:54.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:52.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:50.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ResendEmailConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:40.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:33.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:10.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginWithRecoveryCode.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:07.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:28:49.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:30:00.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ForgotPasswordConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:29:46.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAADYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-04T09:58:13.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ConfirmEmailChange.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:29:36.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ConfirmEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:29:35.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Lockout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:29:01.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-02T06:55:37.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:29:33.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ET_Vest\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ET_Vest\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T13:29:10.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:28:43.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "serviceDependencies.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Properties\\serviceDependencies.json",
+              "RelativeDocumentMoniker": "ET_Vest\\Properties\\serviceDependencies.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Properties\\serviceDependencies.json",
+              "RelativeToolTip": "ET_Vest\\Properties\\serviceDependencies.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T13:29:07.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_StatusMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:28:28.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T13:28:31.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20250624132250_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20250624132250_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Migrations\\20250624132250_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20250624132250_InitialCreate.cs",
+              "RelativeToolTip": "ET_Vest\\Migrations\\20250624132250_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:22:50.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ET_Vest\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ET_Vest\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-24T13:21:10.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Program.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Program.cs",
+              "RelativeToolTip": "ET_Vest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T13:19:45.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T14:27:21.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "ET_Vest\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "ET_Vest\\wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-06T14:33:30.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Layout.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\wwwroot\\css\\Layout.css",
+              "RelativeDocumentMoniker": "ET_Vest\\wwwroot\\css\\Layout.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\wwwroot\\css\\Layout.css",
+              "RelativeToolTip": "ET_Vest\\wwwroot\\css\\Layout.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-06T14:31:06.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T14:30:09.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Request\\Index.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Request\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Request\\Index.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Request\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T15:14:58.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Inventory\\Index.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Inventory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Inventory\\Index.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Inventory\\Index.cshtml",
+              "ViewState": "AQIAADsAAAAAAAAAAAAAAEQAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T17:59:21.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Inventory\\Add.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Inventory\\Add.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Inventory\\Add.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Inventory\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T17:59:09.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Sale\\Index.cshtml",
+              "RelativeDocumentMoniker": "ET_Vest\\Views\\Sale\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Views\\Sale\\Index.cshtml",
+              "RelativeToolTip": "ET_Vest\\Views\\Sale\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAD4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T15:21:43.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RequestController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\RequestController.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Controllers\\RequestController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\RequestController.cs",
+              "RelativeToolTip": "ET_Vest\\Controllers\\RequestController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAEcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T13:52:08.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "ET_Vest\\Controllers\\SaleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T12:05:55.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "20240403200858_nullable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20240403200858_nullable.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Migrations\\20240403200858_nullable.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20240403200858_nullable.cs",
+              "RelativeToolTip": "ET_Vest\\Migrations\\20240403200858_nullable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T05:11:19.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20240402071451_Validations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20240402071451_Validations.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Migrations\\20240402071451_Validations.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Migrations\\20240402071451_Validations.cs",
+              "RelativeToolTip": "ET_Vest\\Migrations\\20240402071451_Validations.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T08:04:33.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CourseWork\\ET_Vest\\ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "ET_Vest\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T06:59:43.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

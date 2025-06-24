@@ -1,0 +1,90 @@
+﻿@model IEnumerable<ET_Vest.Models.Sale>
+
+<h2>Продажби</h2>
+
+<table class="table">
+
+    <thead>
+        @if (User.IsInRole("Owner"))
+        {
+            <div style="text-align: center;">
+                <form asp-action="SalesByDateAndPE" method="post">
+                    <div class="form-group">
+                        <label for="startDate">Начална дата:</label>
+                        <input type="date" id="startDate" name="startDate" value="@((ViewBag.StartDate != null && ViewBag.StartDate != DateTime.MinValue) ? ViewBag.StartDate.ToString("yyyy-MM-dd") : string.Empty)">
+
+                        <label for="endDate">Крайна дата:</label>
+                        <input type="date" id="endDate" name="endDate" value="@((ViewBag.EndDate != null && ViewBag.EndDate != DateTime.MaxValue) ? ViewBag.EndDate.ToString("yyyy-MM-dd") : string.Empty)">
+
+                        <label for="printedEditionSearch">Издание:</label>
+                        <input type="text" id="printedEditionSearch" name="printedEditionSearch" value="@ViewBag.PrintedEditionSearch" />
+
+                        <label for="tradeObjectSearch">Обект:</label>
+                        <input type="text" id="tradeObjectSearch" name="tradeObjectSearch" value="@ViewBag.TradeObjectSearch" />
+                        <br> <!-- Adding line break for spacing -->
+
+                        <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Филтриране</button>
+                        <a href="@Url.Action("Index", "Sale")" class="btn btn-secondary" style="margin-top: 10px;">Изчисти</a>
+                    </div>
+                </form>
+            </div>
+
+
+        }
+
+        @if (User.IsInRole("Employee"))
+        {
+                    <h4>Дневна справка - @DateTime.Today.ToShortDateString() </h4>
+        }
+    </thead>
+
+    <thead>
+        <tr>
+            <th>Дата на продажбата</th>
+            <th>Печатно издание</th>
+            <th>Търговски обект</th>
+            <th>Количество</th>
+            <th>Цена на брой</th>
+            <th>Обща цена</th>
+                @if (User.IsInRole("Employee"))
+            {
+            <th>Действия</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var sale in Model)
+        {
+            <tr>
+                <td>@sale.DateOfSale.ToString("dd/MM/yyyy")</td>
+                <td>@sale.PrintedEdition.Title</td>
+                <td>@sale.TradeObject.Name</td>
+                <td>@sale.SoldQuantity</td>
+                <td>@sale.PrintedEdition.SalePrice лева</td>
+                <td>@sale.Total лева</td>
+
+
+                <td>
+                    @if (User.IsInRole("Employee"))
+                    {
+                        <form asp-action="Delete" asp-route-id="@sale.SalesId" method="post"
+                              onsubmit="return confirm('Сигурни ли сте, че искате да изтриете тази продажба?');">
+                            <button type="submit" class="btn btn-danger">Изтриване</button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<p id="totalSum" style= "font-weight: bold;">Отчет на каса: @ViewBag.TotalSum лева</p>
+
+
+
+@if (User.IsInRole("Employee"))
+{
+    <a asp-action="Add" asp-controller="Sale" class="btn btn-add">Добавяне на нова продажба</a>
+}
+

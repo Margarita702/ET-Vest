@@ -1,0 +1,43 @@
+﻿@page
+@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@model ApplicationUser
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Home.css">
+    <title>ET_Vest</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row center title">
+            <p class="main-title">ЕТ "Вест"</p>
+            <p class="subtitle">Разпространение на българска и чуждестранна преса</p>
+            <hr class="line">
+            @if (SignInManager.IsSignedIn(User))
+            {
+                <p class="welcome-message"> Добре дошли, </p>
+                var userId = User.Claims.FirstOrDefault(a => a.Type == ClaimTypes.NameIdentifier)?.Value;
+                if (userId != null)
+                {
+                    var user = await UserManager.FindByIdAsync(userId);
+                    <span class="username">@user.FirstName @user.LastName</span>
+                }
+            }
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.get("/getusername", function (data) {
+                $("#user-name").text(data.username);
+            });
+        });
+    </script>
+</body>
+</html>
